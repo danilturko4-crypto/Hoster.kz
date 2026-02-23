@@ -1,0 +1,42 @@
+@use '../../common/scss/variables.scss' as *;
+@use '../../common/scss/mixins.scss' as *;
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: $spacing-sm;
+  padding: $spacing-sm $spacing-xl;
+  border-radius: $radius-md;
+  font-family: $font-body;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all $transition-fast;
+  border: 2px solid transparent;
+
+  &--primary {
+    background: $purple;
+    color: $white;
+
+    &:hover {
+      background: $purple-light;
+    }
+  }
+
+  &--outline {
+    background: transparent;
+    color: $white;
+    border-color: rgba($white, 0.5);
+
+    &:hover {
+      background: transparent;
+      border-color: rgba($white, 0.3);
+      
+    }
+  }
+
+  &--sm {
+    padding: $spacing-xs $spacing-md;
+    font-size: 13px;
+  }
+}

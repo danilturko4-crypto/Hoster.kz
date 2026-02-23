@@ -1,0 +1,8 @@
+@use '../../common/scss/variables.scss' as *;
+@use '../../common/scss/mixins.scss' as *;
+
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+}

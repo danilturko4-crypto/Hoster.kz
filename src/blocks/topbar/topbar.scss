@@ -1,0 +1,109 @@
+@use '../../common/scss/variables.scss' as *;
+@use '../../common/scss/mixins.scss' as *;
+
+.topbar {
+  background: $white;
+  border-bottom: 1px solid $border;
+  padding: $spacing-sm 0;
+  font-size: 15px;
+  font-weight: 700;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 30px;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: $text-gray;
+      transition: color $transition-fast;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      &:hover,
+      &.active {
+        color: $purple;
+      }
+    }
+
+    .active {
+      font-weight: 600;
+      
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: $spacing-2xl;
+  }
+
+  &__phone-group {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    color: $text;
+
+    img {
+      width: 12.16px;
+      height: 16.99px;
+    }
+
+    &:hover {
+      color: $purple;
+    }
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+    color: $text-gray;
+    cursor: pointer;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      color: $purple;
+    }
+  }
+
+  &__lang {
+    color: $text-gray;
+
+    &:hover {
+      color: $purple;
+    }
+  }
+}
+
+@include respond-to('tablet') {
+  .topbar {
+    display: none;
+  }
+}
+
+@include respond-to('md') {
+  .topbar {
+    display: none;
+  }
+}

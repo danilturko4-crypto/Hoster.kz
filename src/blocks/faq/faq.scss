@@ -1,0 +1,88 @@
+@use '../../common/scss/variables.scss' as *;
+@use '../../common/scss/mixins.scss' as *;
+
+.faq {
+  padding: $spacing-5xl 0;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: $spacing-4xl;
+  }
+
+  &__left {
+    p {
+      color: $text-gray;
+      font-size: 15px;
+      line-height: 1.7;
+      margin-top: $spacing-sm;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    background: $light-bg;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: $radius-lg;
+    
+
+    &--open {
+      .faq__question {
+        font-weight: 600;
+         background-color: #E3EAF1;
+
+      }
+      .faq__icon img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $spacing-md;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color $transition-fast;
+
+
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    display: flex;
+  
+
+    img {
+      width: 15px;
+      height: 7.94px;
+    }
+  }
+
+  &__answer {
+    padding: 0 $spacing-xl 20px;
+    font-size: 14px;
+    color: $text-gray;
+    line-height: 1.7;
+    background-color: #E3EAF1;
+
+    p + p {
+      margin-top: 10px;
+    }
+  }
+}
+
+@include respond-to('md') {
+  .faq__inner {
+    grid-template-columns: 1fr;
+  }
+}

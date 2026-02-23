@@ -1,0 +1,40 @@
+// ─── Responsive Breakpoints ────────────────────────────────
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == 'lg' {
+    @media (max-width: 1024px) { @content; }
+  }
+  @else if $breakpoint == 'md' {
+    @media (max-width: 768px) { @content; }
+  }
+  @else if $breakpoint == 'sm' {
+    @media (max-width: 480px) { @content; }
+  }
+  @else if $breakpoint == 'tablet' {
+    @media (min-width: 769px) and (max-width: 1199px) { @content; }
+  }
+}
+
+// ─── Flexbox Utilities ─────────────────────────────────────
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// ─── Text Utilities ────────────────────────────────────────
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// ─── Transition Utilities ──────────────────────────────────
+@mixin transition($properties: all) {
+  transition: $properties $transition-base;
+}

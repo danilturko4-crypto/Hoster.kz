@@ -1,0 +1,19 @@
+// ─── Import Common Styles ────────────────────────────────────
+@use '../common/scss/variables.scss' as *;
+@use '../common/scss/mixins.scss' as *;
+@use '../common/scss/base.scss' as *;
+
+// ─── Import Blocks ───────────────────────────────────────────
+@use '../blocks/container/container.scss' as *;
+@use '../blocks/button/button.scss' as *;
+@use '../blocks/topbar/topbar.scss' as *;
+@use '../blocks/header/header.scss' as *;
+@use '../blocks/hero/hero.scss' as *;
+@use '../blocks/marquee/marquee.scss' as *;
+@use '../blocks/services/services.scss' as *;
+@use '../blocks/why-us/why-us.scss' as *;
+@use '../blocks/cases/cases.scss' as *;
+@use '../blocks/faq/faq.scss' as *;
+@use '../blocks/footer/footer.scss' as *;
+@use '../blocks/modal/modal.scss' as *;
+@use '../blocks/mobile-menu/mobile-menu.scss' as *;

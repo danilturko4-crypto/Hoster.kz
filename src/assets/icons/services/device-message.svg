@@ -1,0 +1,15 @@
+<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" fill="none" customFrame="#000000">
+	<rect id="vuesax/linear/device-message" width="30.000000" height="30.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<g id="vuesax/linear/device-message">
+		<g id="device-message">
+			<path id="Vector" d="M25 17.375C25 21.3125 22.75 23 19.375 23L8.125 23C4.75 23 2.5 21.3125 2.5 17.375L2.5 10.625C2.5 6.6875 4.75 5 8.125 5L11.5 5C11.3375 5.475 11.25 6 11.25 6.5625L11.25 11.4375C11.25 12.65 11.65 13.675 12.3625 14.3875C13.075 15.1 14.1 15.5 15.3125 15.5L15.3125 17.2375C15.3125 17.875 16.0375 18.2624 16.575 17.9124L20.1875 15.5L23.4375 15.5C24 15.5 24.525 15.4124 25 15.2499L25 17.375Z" fill-rule="nonzero" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+			<path id="Vector" d="M27.5 11.4375C27.5 13.3 26.55 14.6999 25 15.2499C24.525 15.4124 24 15.5 23.4375 15.5L20.1875 15.5L16.575 17.9124C16.0375 18.2624 15.3125 17.875 15.3125 17.2375L15.3125 15.5C14.1 15.5 13.075 15.1 12.3625 14.3875C11.65 13.675 11.25 12.65 11.25 11.4375L11.25 6.5625C11.25 6 11.3375 5.475 11.5 5C12.05 3.45 13.45 2.5 15.3125 2.5L23.4375 2.5C25.875 2.5 27.5 4.125 27.5 6.5625L27.5 11.4375Z" fill-rule="nonzero" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+			<path id="Vector" d="M9.25 27.5L18.25 27.5" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+			<path id="Vector" d="M0 0L4.49997 0" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" transform="matrix(0,1,-1,0,13.75,23)" />
+			<path id="Vector" opacity="0" />
+			<path id="Vector" d="M91.8151 8.9375L93.0651 8.9375" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+			<path id="Vector" d="M88.3151 8.9375L89.5651 8.9375" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+			<path id="Vector" d="M84.815 8.9375L86.065 8.9375" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+		</g>
+	</g>
+</svg>

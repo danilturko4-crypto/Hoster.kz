@@ -1,0 +1,59 @@
+@use './variables.scss' as *;
+@use './mixins.scss' as *;
+
+// ─── Global Reset ──────────────────────────────────────────
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  color: $text;
+  background: $white;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+// ─── Common Utilities ──────────────────────────────────────
+.section-title {
+  font-family: $font-display;
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: $text;
+  margin-bottom: 16px;
+}
+
+.text-accent {
+  color: $accent;
+}
+
+.link-more {
+  color: $purple;
+  font-weight: 600;
+  font-size: 14px;
+  transition: opacity $transition-fast;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoster.kz — Разработка сайтов и мобильных приложений</title>
+  <link rel="icon" type="image/svg+xml" href="<%= require('./assets/img/favicon.svg') %>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <nav class="topbar__nav">
+        <a href="#">О компании</a>
+        <a href="#" class="active">
+          <img src="<%= require('./assets/icons/top-bar/portfolio-top-bar.svg') %>" alt="">
+          Портфолио
+        </a>
+      </nav>
+      <div class="topbar__right">
+        <div class="topbar__phone-group">
+          <a href="#" class="topbar__search">
+            <img src="<%= require('./assets/icons/top-bar/search-top-bar.svg') %>" alt="">
+          </a>
+          <a href="tel:+77670941000" class="topbar__phone">
+            <img src="<%= require('./assets/icons/top-bar/phone-top-bar.svg') %>" alt="">
+            +7 (767) 094 10 00
+          </a>
+        </div>
+        <a href="#" class="topbar__lang">Рус</a>
+        <a href="#" class="btn btn--sm btn--primary" data-modal="order">Оставить заявку</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="header__logo">
+        <img src="<%= require('./assets/icons/logo.svg') %>" alt="Logo" class="header__logo-icon">
+        <img src="<%= require('./assets/icons/logo-text.svg') %>" alt="HOSTER.KZ" class="header__logo-text">
+      </a>
+      <nav class="header__nav">
+        <a href="#">Сайты <span>▾</span></a>
+        <a href="#">Мобильные приложения</a>
+        <a href="#">Контекстная реклама</a>
+        <a href="#">Интеграции <span>▾</span></a>
+        <a href="#">Дизайн <span>▾</span></a>
+        <a href="#">Лицензии 1С-Битрикс</a>
+      </nav>
+      <div class="header__mobile-actions">
+        <a href="tel:+77670941000" class="header__mobile-icon">
+          <img src="<%= require('./assets/icons/top-bar/phone-top-bar.svg') %>" alt="Телефон">
+        </a>
+        <a href="#" class="header__mobile-icon">
+          <img src="<%= require('./assets/icons/top-bar/search-top-bar.svg') %>" alt="Поиск">
+        </a>
+        <a href="#" class="header__mobile-icon">
+          <img src="<%= require('./assets/icons/top-bar/whatsapp.svg') %>" alt="WhatsApp">
+        </a>
+        <button class="header__burger" aria-label="Меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+    <div class="mobile-menu__langs">
+      <a href="#" class="mobile-menu__lang mobile-menu__lang--active">Рус</a>
+      <a href="#" class="mobile-menu__lang">Қаз</a>
+      <a href="#" class="mobile-menu__lang">Eng</a>
+    </div>
+    <nav class="mobile-menu__nav">
+      <a href="#" class="mobile-menu__link mobile-menu__link--arrow">Сайты</a>
+      <a href="#" class="mobile-menu__link">Мобильные приложения</a>
+      <a href="#" class="mobile-menu__link">Контекстная реклама</a>
+      <a href="#" class="mobile-menu__link mobile-menu__link--arrow">Интеграции</a>
+      <a href="#" class="mobile-menu__link mobile-menu__link--arrow">Дизайн</a>
+      <a href="#" class="mobile-menu__link">Лицензии 1С-Битрикс</a>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero bg-hero">
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__text">
+          <h1 class="hero__title">UI KIT</h1>
+          <p class="hero__subtitle">Фирменные UI элементы siter.kz</p>
+          <div class="hero__buttons">
+            <a href="#" class="btn btn--primary">Смотреть UI</a>
+            <a href="#" class="btn btn--outline" data-modal="order">Оставить заявку</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img src="<%= require('./assets/img/hero.png') %>" alt="UI Kit Elements" class="hero__image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS MARQUEE -->
+  <section class="marquee-section">
+    <div class="marquee">
+      <div class="marquee__track">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 2.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 3.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/Frame 399.png') %>" alt="" class="marquee__img--large">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 4.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 5.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 6.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/Frame 399.png') %>" alt="" class="marquee__img--large">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 7.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 8.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/Frame 399.png') %>" alt="" class="marquee__img--large">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 2.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 3.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/Frame 399.png') %>" alt="" class="marquee__img--large">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 4.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 5.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 6.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/Frame 399.png') %>" alt="" class="marquee__img--large">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 7.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/bitrix_api 8.png') %>" alt="">
+        <img src="<%= require('./assets/img/marquee/Frame 399.png') %>" alt="" class="marquee__img--large">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services__header">
+        <div class="services__header-left">
+          <h2 class="section-title">Услуги</h2>
+          <p class="services__desc">Оставьте заявку на создание сайта или консультацию по разработке проекта и наш менеджер перезвонит вам</p>
+          <a href="#" class="btn btn--primary" data-modal="order">Оставить заявку</a>
+        </div>
+        <div class="services__card services__card--featured">
+          <div class="services__card-icon">
+            <img src="<%= require('./assets/icons/services/document-code-2.svg') %>" alt="">
+          </div>
+          <h3><a href="#">Создание сайтов</a></h3>
+          <p>Предлагаем для разработки на выбор 70+ шаблонов на готовом решении и индивидуальную разработку под запросы и особенности бизнеса.</p>
+        </div>
+      </div>
+      <div class="services__grid">
+        <div class="services__card">
+          <div class="services__card-icon">
+            <img src="<%= require('./assets/icons/services/task-square.svg') %>" alt="">
+          </div>
+          <h3><a href="#">Контекстная реклама</a></h3>
+          <p>Создаём и запускаем рекламные кампании в Яндекс и Google, повышая продажи на сайте.</p>
+        </div>
+        <div class="services__card">
+          <div class="services__card-icon">
+            <img src="<%= require('./assets/icons/services/share.svg') %>" alt="">
+          </div>
+          <h3><a href="#">Интеграция</a></h3>
+          <p>Интегрируем сайты и интернет-магазины с учётными системами и внешними сервисами по API.</p>
+        </div>
+        <div class="services__card services__card--purple">
+          <div class="services__card-top">
+            <div class="services__card-icon">
+              <img src="<%= require('./assets/icons/services/device-message.svg') %>" alt="">
+            </div>
+            <span class="services__card-dots">···</span>
+          </div>
+          <h3><a href="#">Поддержка сайтов</a></h3>
+          <p>Совершенствуем и развиваем интернет-проекты на 1С-Битрикс, делая их успешнее.</p>
+        </div>
+        <div class="services__card">
+          <div class="services__card-icon">
+            <img src="<%= require('./assets/icons/services/mobile.svg') %>" alt="">
+          </div>
+          <h3><a href="#">Мобильные приложения</a></h3>
+          <p>Расширяем возможности онлайн-торговли, разрабатывая приложения для iOS и Android.</p>
+        </div>
+        <div class="services__card">
+          <div class="services__card-icon">
+            <img src="<%= require('./assets/icons/services/designtools.svg') %>" alt="">
+          </div>
+          <h3><a href="#">Дизайн</a></h3>
+          <p>Создаём уникальные презентации и запоминающийся образ компании, чтобы выделиться среди конкурентов.</p>
+        </div>
+        <div class="services__card">
+          <div class="services__card-icon">
+            <img src="<%= require('./assets/icons/services/document-code-2.svg') %>" alt="">
+          </div>
+          <h3><a href="#">Лицензии 1С</a></h3>
+          <p>Предлагаем официальные лицензии для разработки и управления веб-сайтами от партнёра 1С-Битрикс.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us">
+    <div class="container">
+      <div class="why-us__inner">
+        <div class="why-us__left">
+          <h2 class="section-title">Почему нас выбирают</h2>
+          <p>Мы всегда честно и открыто рассказываем о процессе разработки веб-сайтов, делимся опытом и стремимся к тому, чтобы наши услуги приносили вам реальную пользу в бизнесе.</p>
+          <p>Разрабатываем сайты для компаний Астаны, Алматы, Кaragанды и других городов Казахстана</p>
+          <a href="#" class="link-more">Читайте подробнее о нас </a>
+        </div>
+        <div class="why-us__grid">
+          <div class="why-us__item">
+            <div class="why-us__icon">
+              <img src="<%= require('./assets/icons/why-us/time.svg') %>" alt="">
+            </div>
+            <p>Экономим время клиентов</p>
+          </div>
+          <div class="why-us__item">
+            <div class="why-us__icon">
+              <img src="<%= require('./assets/icons/why-us/leader.svg') %>" alt="">
+            </div>
+            <p>Наш профессионализм подтверждён</p>
+          </div>
+          <div class="why-us__item">
+            <div class="why-us__icon">
+              <img src="<%= require('./assets/icons/why-us/medal.svg') %>" alt="">
+            </div>
+            <p>Лидеры во всех рейтингах 1С-Битрикс</p>
+          </div>
+          <div class="why-us__item">
+            <div class="why-us__icon">
+              <img src="<%= require('./assets/icons/why-us/comand.svg') %>" alt="">
+            </div>
+            <p>Команда опытных разработчиков и менеджеров</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section class="cases">
+    <div class="container">
+      <h2 class="section-title cases__title">Эти компании сделали выбор в нашу пользу<br>и получили свой <span class="text-accent">результат!</span></h2>
+      <div class="cases__slider">
+        <button class="cases__arrow cases__arrow--prev">‹</button>
+        <div class="cases__slide">
+          <div class="cases__slide-content">
+            <h3>Разработка интернет магазина для дистрибьютора шин</h3>
+            <ul>
+              <li>Разработали уникальный дизайн карточек товаров и каталога.</li>
+              <li>Настроили для сайта интеграцию с 1С и CRM системой синхронизации товаров и заказов.</li>
+              <li>Создали специальные разделы «Подробнее об акциях», «Запись на шиномонтаж», «Доставка».</li>
+              <li>Подключили функционал оплаты онлайн, в рассрочку или кредит.</li>
+              <li>Создали закрытый раздел с заказами для менеджеров, в котором хранятся все данные по услугам.</li>
+            </ul>
+          </div>
+          <div class="cases__slide-image">
+            <div class="cases__logo-placeholder">
+              <span>TIRE PRO</span>
+            </div>
+          </div>
+        </div>
+        <button class="cases__arrow cases__arrow--next">›</button>
+      </div>
+      <div class="cases__dots">
+        <span class="cases__dot cases__dot--active"></span>
+        <span class="cases__dot"></span>
+        <span class="cases__dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="faq__inner">
+        <div class="faq__left">
+          <h2 class="section-title">FAQ</h2>
+          <p>Мы собрали список самых часто задаваемых вопросов по разработке сайтов и подробно ответили на них</p>
+        </div>
+        <div class="faq__list">
+          <div class="faq__item">
+            <div class="faq__question">
+              <span>Почему Siter.KZ выбирают для разработки интернет-магазинов на 1С-Битрикс?</span>
+              <span class="faq__icon"><img src="<%= require('./assets/icons/faq-icon.png') %>" alt=""></span>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span>Есть ли у Siter.kz опыт интеграции сайта с 1С и CRM?</span>
+              <span class="faq__icon"><img src="<%= require('./assets/icons/faq-icon.png') %>" alt=""></span>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span>В каких годах Siter.KZ была №1 по продажам 1С-Битрикс?</span>
+              <span class="faq__icon"><img src="<%= require('./assets/icons/faq-icon.png') %>" alt=""></span>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span>В каких городах Казахстана у вас можно заказать разработку сайта? Работаете с клиентами из Астаны, Алматы и Кaragанды или со всем Казахстаном?</span>
+              <span class="faq__icon"><img src="<%= require('./assets/icons/faq-icon.png') %>" alt=""></span>
+            </div>
+          </div>
+          <div class="faq__item faq__item--open">
+            <div class="faq__question">
+              <span>В каких городах Казахстана у вас можно заказать разработку сайта? Работаете с клиентами из Астаны, Алматы и Кaragанды или со всем Казахстаном?</span>
+              <span class="faq__icon "><img src="<%= require('./assets/icons/faq-icon.png') %>" alt=""></span>
+            </div>
+            <div class="faq__answer">
+              <p>Создать сайт в нашей компании можно находясь в любом городе Казахстана. Наши клиенты успешно сотрудничают с нами из Кaragанды, Астаны, Алматы.</p>
+              <p>3536 км — расстояние до самого удалённого от нас клиента и мы с уверенностью можем сказать, что расстояние — не проблема. Оказание онлайн-услуг не требует личного присутствия команды разработчиков в офисе заказчика.</p>
+              <p>Мы работаем удаленно и все вопросы решаем посредством связи по почте, телефону, WhatsApp, Skype. Эффективность удаленного взаимодействия и личных встреч примерно одинаковая, но времени можно сэкономить гораздо больше. </p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span>Я не из Казахстана, как я могу создать сайт у вас?</span>
+              <span class="faq__icon"><img src="<%= require('./assets/icons/faq-icon.png') %>" alt=""></span>
+            </div>
+          </div>
+          <div class="faq__item">
+            <div class="faq__question">
+              <span>От чего зависит цена на контекстную рекламу сайта?</span>
+              <span class="faq__icon"><img src="<%= require('./assets/icons/faq-icon.png') %>" alt=""></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <p>© 2026 ТОО «Компания Siter.KZ»<br>Все права защищены</p>
+      </div>
+      <hr class="footer__divider">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Портфолио</a></li>
+            <li><a href="#">Индивидуальные решения</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul>
+            <li><a href="#">Создание сайтов</a></li>
+            <li><a href="#">Интернет магазины</a></li>
+            <li><a href="#">Рефенральная программа</a></li>
+            <li><a href="#">Гранты на разработку</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul>
+            <li><a href="#">Интеграция с 1С</a></li>
+            <li><a href="#">Контекстная реклама</a></li>
+            <li><a href="#">SEO продвижение</a></li>
+            <li><a href="#">Поддержка сайтов</a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__contacts">
+          <p>Алматы: <a href="tel:87273124226">8 727 3 124 226</a></p>
+          <p>Астана: <a href="tel:87172699225">8 7172 699 225</a></p>
+          <p>Кaragанды: <a href="tel:87212945228">8 7212 945 228</a></p>
+          <p>Мобильный: <a href="tel:87470941000">8 747 094 10 00</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal-order">
+    <div class="modal__overlay"></div>
+    <div class="modal__window">
+      <button class="modal__close">✕</button>
+      <p class="modal__title">Оставьте заявку</p>
+      <form class="modal__form">
+
+        <div class="modal__field-wrap">
+          <label class="modal__label">Имя *</label>
+          <input class="modal__field" type="text" placeholder="Сергей" required>
+        </div>
+
+        <div class="modal__field-wrap">
+          <select class="modal__field modal__select">
+            <option value="" disabled selected>Удобный способ связи</option>
+            <option value="whatsapp">WhatsApp</option>
+            <option value="telegram">Telegram</option>
+            <option value="phone">Телефон</option>
+          </select>
+        </div>
+
+        <div class="modal__field-wrap">
+          <textarea class="modal__field modal__textarea" placeholder="Сообщение"></textarea>
+        </div>
+
+        <label class="modal__checkbox">
+          <input type="checkbox" required>
+          <span class="modal__checkbox-box"></span>
+          <span class="modal__checkbox-text">соглашаюсь с <a href="#">политикой конфиденциальности</a></span>
+        </label>
+
+        <div class="modal__messengers">
+          <label class="modal__radio">
+            <input type="radio" name="messenger" value="whatsapp">
+            <span class="modal__radio-dot modal__radio-dot--whatsapp"></span>
+            <span>– whatsapp</span>
+          </label>
+          <label class="modal__radio">
+            <input type="radio" name="messenger" value="telegram">
+            <span class="modal__radio-dot modal__radio-dot--telegram"></span>
+            <span>– telegram</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn--primary modal__submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+@use '../../common/scss/variables.scss' as *;
+@use '../../common/scss/mixins.scss' as *;
+
+.footer {
+  background: $text;
+  color: rgba($white, 0.7);
+  padding: 48px 0 32px;
+  font-size: 13px;
+
+  &__divider {
+    border: none;
+    border-top: 1px solid rgba($white, 0.15);
+    margin-bottom: $spacing-2xl;
+  }
+
+  &__top {
+    margin-bottom: $spacing-2xl;
+
+    p {
+      line-height: 1.6;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: $spacing-2xl;
+  }
+
+  &__col {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    li a {
+      color: rgba($white, 0.6);
+      transition: color $transition-fast;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+  &__contacts {
+    p {
+      margin-bottom: $spacing-sm;
+    }
+
+    a {
+      color: rgba($white, 0.8);
+      font-weight: 600;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+@include respond-to('lg') {
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include respond-to('md') {
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include respond-to('sm') {
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+}

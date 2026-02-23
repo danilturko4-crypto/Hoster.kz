@@ -1,0 +1,12 @@
+<svg viewBox="0 0 13 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.000000" height="16.000000" fill="none" customFrame="#000000">
+	<defs>
+		<clipPath id="clipPath_12">
+			<rect width="13.000000" height="13.000000" x="0.000000" y="3.000000" rx="6.500000" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<rect id="Frame 294" width="13.000000" height="16.000000" x="0.000000" y="0.000000" />
+	<g id="Frame 293" clip-path="url(#clipPath_12)" customFrame="url(#clipPath_12)">
+		<rect id="Frame 293" width="13.000000" height="13.000000" x="0.000000" y="3.000000" rx="6.500000" fill="rgb(184,41,160)" />
+		<path id="Vector 1" d="M3.68555 8.89824L5.9375 11.0814L9.31543 7.80664" stroke="rgb(255,255,255)" stroke-width="1.500000" />
+	</g>
+</svg>
