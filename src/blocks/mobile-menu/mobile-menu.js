@@ -8,7 +8,6 @@ if (burger && mobileMenu) {
     document.body.style.overflow = isOpen ? 'hidden' : '';
   });
 
-  // Закрытие при клике на ссылку
   mobileMenu.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       mobileMenu.classList.remove('mobile-menu--open');
